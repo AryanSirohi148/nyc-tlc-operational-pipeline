@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Data files (raw parquet is large — don't commit it)
+data/raw/*.parquet
+
+# Processed outputs (reproducible from pipeline)
+data/processed/
+outputs/validation_log.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

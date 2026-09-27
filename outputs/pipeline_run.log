@@ -1,0 +1,146 @@
+2026-09-27 19:07:21 | INFO     | ╔══════════════════════════════════════════════════════╗
+2026-09-27 19:07:21 | INFO     | ║  NYC TLC YELLOW TAXI PIPELINE — RUN 20260927T133721Z ║
+2026-09-27 19:07:21 | INFO     | ╚══════════════════════════════════════════════════════╝
+2026-09-27 19:07:21 | INFO     | ============================================================
+2026-09-27 19:07:21 | INFO     | STEP 1 / 4 — INGEST
+2026-09-27 19:07:21 | INFO     | ============================================================
+2026-09-27 19:07:21 | INFO     | [INGEST] Downloading TLC Yellow Trip Data (Jan 2024) from https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet …
+2026-09-27 19:07:21 | DEBUG    | Starting new HTTPS connection (1): d37ci6vzurychx.cloudfront.net:443
+2026-09-27 19:07:21 | DEBUG    | https://d37ci6vzurychx.cloudfront.net:443 "GET /trip-data/yellow_tripdata_2024-01.parquet HTTP/1.1" 200 49961641
+2026-09-27 19:07:22 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 2.1% (1.0 MB / 50.0 MB)
+2026-09-27 19:07:22 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 4.2% (2.1 MB / 50.0 MB)
+2026-09-27 19:07:23 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 6.3% (3.1 MB / 50.0 MB)
+2026-09-27 19:07:23 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 8.4% (4.2 MB / 50.0 MB)
+2026-09-27 19:07:23 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 10.5% (5.2 MB / 50.0 MB)
+2026-09-27 19:07:24 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 12.6% (6.3 MB / 50.0 MB)
+2026-09-27 19:07:24 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 14.7% (7.3 MB / 50.0 MB)
+2026-09-27 19:07:25 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 16.8% (8.4 MB / 50.0 MB)
+2026-09-27 19:07:25 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 18.9% (9.4 MB / 50.0 MB)
+2026-09-27 19:07:26 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 21.0% (10.5 MB / 50.0 MB)
+2026-09-27 19:07:26 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 23.1% (11.5 MB / 50.0 MB)
+2026-09-27 19:07:27 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 25.2% (12.6 MB / 50.0 MB)
+2026-09-27 19:07:27 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 27.3% (13.6 MB / 50.0 MB)
+2026-09-27 19:07:28 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 29.4% (14.7 MB / 50.0 MB)
+2026-09-27 19:07:28 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 31.5% (15.7 MB / 50.0 MB)
+2026-09-27 19:07:29 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 33.6% (16.8 MB / 50.0 MB)
+2026-09-27 19:07:29 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 35.7% (17.8 MB / 50.0 MB)
+2026-09-27 19:07:30 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 37.8% (18.9 MB / 50.0 MB)
+2026-09-27 19:07:30 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 39.9% (19.9 MB / 50.0 MB)
+2026-09-27 19:07:31 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 42.0% (21.0 MB / 50.0 MB)
+2026-09-27 19:07:32 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 44.1% (22.0 MB / 50.0 MB)
+2026-09-27 19:07:32 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 46.2% (23.1 MB / 50.0 MB)
+2026-09-27 19:07:33 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 48.3% (24.1 MB / 50.0 MB)
+2026-09-27 19:07:33 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 50.4% (25.2 MB / 50.0 MB)
+2026-09-27 19:07:34 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 52.5% (26.2 MB / 50.0 MB)
+2026-09-27 19:07:34 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 54.6% (27.3 MB / 50.0 MB)
+2026-09-27 19:07:35 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 56.7% (28.3 MB / 50.0 MB)
+2026-09-27 19:07:35 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 58.8% (29.4 MB / 50.0 MB)
+2026-09-27 19:07:35 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 60.9% (30.4 MB / 50.0 MB)
+2026-09-27 19:07:36 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 63.0% (31.5 MB / 50.0 MB)
+2026-09-27 19:07:37 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 65.1% (32.5 MB / 50.0 MB)
+2026-09-27 19:07:37 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 67.2% (33.6 MB / 50.0 MB)
+2026-09-27 19:07:37 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 69.3% (34.6 MB / 50.0 MB)
+2026-09-27 19:07:38 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 71.4% (35.7 MB / 50.0 MB)
+2026-09-27 19:07:38 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 73.5% (36.7 MB / 50.0 MB)
+2026-09-27 19:07:39 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 75.6% (37.7 MB / 50.0 MB)
+2026-09-27 19:07:39 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 77.7% (38.8 MB / 50.0 MB)
+2026-09-27 19:07:39 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 79.8% (39.8 MB / 50.0 MB)
+2026-09-27 19:07:40 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 81.9% (40.9 MB / 50.0 MB)
+2026-09-27 19:07:40 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 84.0% (41.9 MB / 50.0 MB)
+2026-09-27 19:07:41 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 86.0% (43.0 MB / 50.0 MB)
+2026-09-27 19:07:41 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 88.1% (44.0 MB / 50.0 MB)
+2026-09-27 19:07:42 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 90.2% (45.1 MB / 50.0 MB)
+2026-09-27 19:07:42 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 92.3% (46.1 MB / 50.0 MB)
+2026-09-27 19:07:43 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 94.4% (47.2 MB / 50.0 MB)
+2026-09-27 19:07:43 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 96.5% (48.2 MB / 50.0 MB)
+2026-09-27 19:07:43 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 98.6% (49.3 MB / 50.0 MB)
+2026-09-27 19:07:44 | DEBUG    | [INGEST] TLC Yellow Trip Data (Jan 2024) — 100.0% (50.0 MB / 50.0 MB)
+2026-09-27 19:07:44 | INFO     | [INGEST] TLC Yellow Trip Data (Jan 2024) downloaded in 23.0 s (50.0 MB).
+2026-09-27 19:07:44 | INFO     | [INGEST] Loading trips from /Users/aryansirohi/Downloads/FDE_Assignment2/data/raw/yellow_tripdata_2024-01.parquet …
+2026-09-27 19:07:50 | INFO     | [INGEST] Loaded 2964624 rows, 19 columns.
+2026-09-27 19:07:50 | INFO     | [INGEST] Downloading TLC Zone Lookup CSV from https://d37ci6vzurychx.cloudfront.net/misc/taxi+_zone_lookup.csv …
+2026-09-27 19:07:50 | DEBUG    | Starting new HTTPS connection (1): d37ci6vzurychx.cloudfront.net:443
+2026-09-27 19:07:50 | DEBUG    | https://d37ci6vzurychx.cloudfront.net:443 "GET /misc/taxi+_zone_lookup.csv HTTP/1.1" 200 None
+2026-09-27 19:07:50 | INFO     | [INGEST] TLC Zone Lookup CSV downloaded in 0.2 s (0.0 MB).
+2026-09-27 19:07:50 | INFO     | [INGEST] Loading zone lookup from /Users/aryansirohi/Downloads/FDE_Assignment2/data/raw/taxi_zone_lookup.csv …
+2026-09-27 19:07:50 | INFO     | [INGEST] Loaded 265 zones.
+2026-09-27 19:07:50 | INFO     | [INGEST] Writing embedded vendor metadata to /Users/aryansirohi/Downloads/FDE_Assignment2/data/raw/vendor_metadata.csv …
+2026-09-27 19:07:50 | INFO     | [INGEST] Loaded 2 vendors from /Users/aryansirohi/Downloads/FDE_Assignment2/data/raw/vendor_metadata.csv.
+2026-09-27 19:07:50 | INFO     | [INGEST] Fetching TLC SODA metadata from API: https://data.cityofnewyork.us/api/views/biws-g3hs.json …
+2026-09-27 19:07:50 | DEBUG    | Starting new HTTPS connection (1): data.cityofnewyork.us:443
+2026-09-27 19:07:52 | DEBUG    | https://data.cityofnewyork.us:443 "GET /api/views/biws-g3hs.json HTTP/1.1" 200 None
+2026-09-27 19:07:52 | INFO     | [INGEST] TLC SODA metadata cached to /Users/aryansirohi/Downloads/FDE_Assignment2/data/raw/tlc_field_metadata.json.
+2026-09-27 19:07:52 | INFO     | [INGEST] Running retrieval completeness checks …
+2026-09-27 19:07:52 | INFO     | [INGEST] Row count OK: 2964624 rows.
+2026-09-27 19:07:52 | INFO     | [INGEST] Schema check OK — all expected columns present.
+2026-09-27 19:07:52 | INFO     | [INGEST] No entirely-null columns detected.
+2026-09-27 19:07:52 | INFO     | [INGEST] Completeness checks complete.
+2026-09-27 19:07:52 | INFO     | STEP 1 complete. Raw trips: 2964624 rows.
+2026-09-27 19:07:52 | INFO     | ============================================================
+2026-09-27 19:07:52 | INFO     | STEP 2 / 4 — PROFILE & VALIDATE
+2026-09-27 19:07:52 | INFO     | ============================================================
+2026-09-27 19:07:53 | INFO     | [VALIDATE] Profiling complete for 19 columns.
+2026-09-27 19:07:53 | INFO     | Profiling summary (null rates):
+               column  null_pct
+             VendorID      0.00
+ tpep_pickup_datetime      0.00
+tpep_dropoff_datetime      0.00
+      passenger_count      4.73
+        trip_distance      0.00
+           RatecodeID      4.73
+   store_and_fwd_flag      4.73
+         PULocationID      0.00
+         DOLocationID      0.00
+         payment_type      0.00
+          fare_amount      0.00
+                extra      0.00
+              mta_tax      0.00
+           tip_amount      0.00
+         tolls_amount      0.00
+improvement_surcharge      0.00
+         total_amount      0.00
+ congestion_surcharge      4.73
+          Airport_fee      4.73
+2026-09-27 19:07:53 | INFO     | [VALIDATE] Starting validation on 2964624 rows …
+2026-09-27 19:07:56 | INFO     | [VALIDATE] Results: 2549473 valid (86.0%), 415151 rejected (14.0%)
+2026-09-27 19:07:57 | INFO     | [VALIDATE] Rejection breakdown:
+rejection_reason
+VR-03:SPEED_OUT_OF_RANGE[5.0,80.0]mph       239209
+VR-05:PASSENGER_COUNT_INVALID[1,6]          171687
+|                                           141936
+VR-02:DISTANCE_OUT_OF_RANGE[0.1,200.0]mi     69770
+VR-04:NEGATIVE_FARE                          37448
+VR-01:DURATION_OUT_OF_RANGE[1,300]min        36935
+VR-04:ZERO_FARE                                893
+VR-07:TIMESTAMP_INVALID(pickup>=dropoff        870
+or                                             870
+null)                                          870
+VR-06:UNKNOWN_VENDOR(not                       260
+in                                             260
+[1,                                            260
+2])                                            260
+VR-07b:TIMESTAMP_WRONG_YEAR(expected            15
+2024)                                           15
+2026-09-27 19:07:59 | INFO     | [VALIDATE] Rejection log written to /Users/aryansirohi/Downloads/FDE_Assignment2/outputs/validation_log.csv (415151 rows).
+2026-09-27 19:07:59 | INFO     | STEP 2 complete. Valid: 2549473 | Rejected: 415151
+2026-09-27 19:07:59 | INFO     | ============================================================
+2026-09-27 19:07:59 | INFO     | STEP 3 / 4 — TRANSFORM & MODEL
+2026-09-27 19:07:59 | INFO     | ============================================================
+2026-09-27 19:07:59 | INFO     | [TRANSFORM] Enriching 2549473 validated trips with zone and vendor data …
+2026-09-27 19:08:01 | INFO     | [TRANSFORM] Enrichment complete. 2549473 rows, 32 columns.
+2026-09-27 19:08:01 | INFO     | [METRICS] M1 computed — 8 boroughs.
+2026-09-27 19:08:01 | INFO     | [METRICS] M2 computed — 24 hour buckets.
+2026-09-27 19:08:01 | INFO     | [METRICS] M3 computed — 2 vendors.
+2026-09-27 19:08:01 | INFO     | [METRICS] M4 computed — 100.0% speed-plausible trips.
+2026-09-27 19:08:01 | INFO     | [METRICS] M5 computed — 8 boroughs.
+2026-09-27 19:08:04 | INFO     | [TRANSFORM] Processed trips saved to /Users/aryansirohi/Downloads/FDE_Assignment2/data/processed/validated_trips.parquet (2549473 rows).
+2026-09-27 19:08:04 | INFO     | [TRANSFORM] Metrics report saved to /Users/aryansirohi/Downloads/FDE_Assignment2/outputs/metrics_report.csv.
+2026-09-27 19:08:04 | INFO     | STEP 3 complete. Enriched trips: 2549473 rows.
+2026-09-27 19:08:04 | INFO     | ============================================================
+2026-09-27 19:08:04 | INFO     | STEP 4 / 4 — OUTPUT
+2026-09-27 19:08:04 | INFO     | ============================================================
+2026-09-27 19:08:04 | INFO     | Pipeline outputs:
+2026-09-27 19:08:04 | INFO     |   Metrics report  : /Users/aryansirohi/Downloads/FDE_Assignment2/outputs/metrics_report.csv
+2026-09-27 19:08:04 | INFO     |   Validation log  : /Users/aryansirohi/Downloads/FDE_Assignment2/outputs/validation_log.csv
+2026-09-27 19:08:04 | INFO     |   Pipeline log    : /Users/aryansirohi/Downloads/FDE_Assignment2/outputs/pipeline_run.log
+2026-09-27 19:08:04 | INFO     | Pipeline completed successfully in 43.1 seconds. Run ID: 20260927T133721Z

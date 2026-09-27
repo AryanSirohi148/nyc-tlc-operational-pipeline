@@ -1,0 +1,1623 @@
+{
+  "id": "biws-g3hs",
+  "name": "2017 Yellow Taxi Trip Data",
+  "assetType": "dataset",
+  "attribution": "Taxi and Limousine Commission (TLC)",
+  "attributionLink": "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page",
+  "averageRating": 0,
+  "category": "Transportation",
+  "createdAt": 1521816708,
+  "description": "These records are generated from the trip record submissions made by yellow taxi Technology Service Providers (TSPs). Each row represents a single trip in a yellow taxi. The trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off taxi zone locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts.",
+  "diciBackend": false,
+  "displayType": "table",
+  "downloadCount": 13169,
+  "hideFromCatalog": false,
+  "hideFromDataJson": false,
+  "indexUpdatedAt": 1522088980,
+  "locale": "en_US",
+  "locked": false,
+  "newBackend": true,
+  "numberOfComments": 0,
+  "oid": 28280938,
+  "provenance": "official",
+  "publicationAppendEnabled": false,
+  "publicationDate": 1522332607,
+  "publicationGroup": 14954665,
+  "publicationStage": "published",
+  "rowClass": "",
+  "rowsUpdatedAt": 1522269303,
+  "tableId": 14954665,
+  "totalTimesRated": 0,
+  "viewCount": 46528,
+  "viewLastModified": 1702586749,
+  "viewType": "tabular",
+  "approvals": [
+    {
+      "reviewedAt": 1523295762,
+      "reviewedAutomatically": true,
+      "state": "approved",
+      "submissionId": 1070110,
+      "submissionObject": "public_audience_request",
+      "submissionOutcome": "change_audience",
+      "submittedAt": 1523295762,
+      "targetAudience": "public",
+      "workflowId": 2285,
+      "submissionDetails": {
+        "permissionType": "READ"
+      },
+      "submissionOutcomeApplication": {
+        "failureCount": 0,
+        "status": "success"
+      },
+      "submitter": {
+        "id": "5fuc-pqz2",
+        "displayName": "NYC OpenData"
+      }
+    }
+  ],
+  "clientContext": {
+    "clientContextVariables": [],
+    "inheritedVariables": {}
+  },
+  "columns": [
+    {
+      "id": 351000264,
+      "name": "VendorID",
+      "dataTypeName": "number",
+      "fieldName": "vendorid",
+      "position": 1,
+      "renderTypeName": "number",
+      "tableColumnId": 62765542,
+      "width": 196,
+      "cachedContents": {
+        "largest": "2",
+        "non_null": "113496874",
+        "average": "1.549237655655609",
+        "null": "0",
+        "top": [
+          {
+            "item": "2",
+            "count": "62336757"
+          },
+          {
+            "item": "1",
+            "count": "51160117"
+          }
+        ],
+        "smallest": "1",
+        "count": "113496874",
+        "sum": "175833631",
+        "cardinality": "2"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 351000265,
+      "name": "tpep_pickup_datetime",
+      "dataTypeName": "calendar_date",
+      "fieldName": "tpep_pickup_datetime",
+      "position": 2,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 62765543,
+      "width": 340,
+      "cachedContents": {
+        "largest": "2053-03-21T16:47:33.000",
+        "non_null": "113496874",
+        "null": "0",
+        "top": [
+          {
+            "item": "2017-12-05T15:15:13.000",
+            "count": "39"
+          },
+          {
+            "item": "2017-02-11T15:15:50.000",
+            "count": "27"
+          },
+          {
+            "item": "2017-11-05T01:12:35.000",
+            "count": "26"
+          },
+          {
+            "item": "2017-03-13T14:24:15.000",
+            "count": "24"
+          },
+          {
+            "item": "2017-02-12T15:15:29.000",
+            "count": "24"
+          },
+          {
+            "item": "2017-02-13T15:15:26.000",
+            "count": "23"
+          },
+          {
+            "item": "2017-05-05T20:24:49.000",
+            "count": "22"
+          },
+          {
+            "item": "2017-04-21T19:16:12.000",
+            "count": "22"
+          },
+          {
+            "item": "2017-05-04T18:56:22.000",
+            "count": "22"
+          },
+          {
+            "item": "2017-02-11T15:15:49.000",
+            "count": "22"
+          },
+          {
+            "item": "2017-11-17T19:37:45.000",
+            "count": "21"
+          },
+          {
+            "item": "2017-02-25T18:56:57.000",
+            "count": "21"
+          },
+          {
+            "item": "2017-04-03T20:21:28.000",
+            "count": "21"
+          },
+          {
+            "item": "2017-03-30T21:50:38.000",
+            "count": "21"
+          },
+          {
+            "item": "2017-02-01T18:48:18.000",
+            "count": "21"
+          },
+          {
+            "item": "2017-03-03T19:19:33.000",
+            "count": "21"
+          },
+          {
+            "item": "2017-11-14T18:07:52.000",
+            "count": "21"
+          },
+          {
+            "item": "2017-11-10T20:38:16.000",
+            "count": "20"
+          },
+          {
+            "item": "2017-06-01T21:26:02.000",
+            "count": "20"
+          },
+          {
+            "item": "2017-11-18T14:48:39.000",
+            "count": "20"
+          }
+        ],
+        "smallest": "2001-01-01T00:04:13.000",
+        "count": "113496874",
+        "cardinality": "28078791"
+      },
+      "format": {
+        "view": "default_date_time"
+      }
+    },
+    {
+      "id": 351000266,
+      "name": "tpep_dropoff_datetime",
+      "dataTypeName": "calendar_date",
+      "fieldName": "tpep_dropoff_datetime",
+      "position": 3,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 62765544,
+      "width": 352,
+      "cachedContents": {
+        "largest": "2053-03-21T16:52:21.000",
+        "non_null": "113496874",
+        "null": "0",
+        "top": [
+          {
+            "item": "2017-10-08T00:00:00.000",
+            "count": "90"
+          },
+          {
+            "item": "2017-07-22T00:00:00.000",
+            "count": "87"
+          },
+          {
+            "item": "2017-06-25T00:00:00.000",
+            "count": "85"
+          },
+          {
+            "item": "2017-07-21T00:00:00.000",
+            "count": "85"
+          },
+          {
+            "item": "2017-05-26T00:00:00.000",
+            "count": "84"
+          },
+          {
+            "item": "2017-07-09T00:00:00.000",
+            "count": "84"
+          },
+          {
+            "item": "2017-12-23T00:00:00.000",
+            "count": "84"
+          },
+          {
+            "item": "2017-12-22T00:00:00.000",
+            "count": "82"
+          },
+          {
+            "item": "2017-12-31T00:00:00.000",
+            "count": "81"
+          },
+          {
+            "item": "2017-07-28T00:00:00.000",
+            "count": "80"
+          },
+          {
+            "item": "2017-08-05T00:00:00.000",
+            "count": "80"
+          },
+          {
+            "item": "2017-11-23T00:00:00.000",
+            "count": "80"
+          },
+          {
+            "item": "2017-07-30T00:00:00.000",
+            "count": "79"
+          },
+          {
+            "item": "2017-12-29T00:00:00.000",
+            "count": "78"
+          },
+          {
+            "item": "2017-12-10T00:00:00.000",
+            "count": "78"
+          },
+          {
+            "item": "2017-11-12T00:00:00.000",
+            "count": "78"
+          },
+          {
+            "item": "2017-12-24T00:00:00.000",
+            "count": "77"
+          },
+          {
+            "item": "2017-11-04T00:00:00.000",
+            "count": "77"
+          },
+          {
+            "item": "2017-08-06T00:00:00.000",
+            "count": "76"
+          },
+          {
+            "item": "2017-05-21T00:00:00.000",
+            "count": "76"
+          }
+        ],
+        "smallest": "1997-07-22T15:30:46.000",
+        "count": "113496874",
+        "cardinality": "28110090"
+      },
+      "format": {
+        "view": "default_date_time"
+      }
+    },
+    {
+      "id": 351000267,
+      "name": "passenger_count",
+      "dataTypeName": "number",
+      "fieldName": "passenger_count",
+      "position": 4,
+      "renderTypeName": "number",
+      "tableColumnId": 62765545,
+      "width": 280,
+      "cachedContents": {
+        "largest": "192",
+        "non_null": "113496874",
+        "average": "1.625284763349517",
+        "null": "0",
+        "top": [
+          {
+            "item": "1",
+            "count": "81034106"
+          },
+          {
+            "item": "2",
+            "count": "16545529"
+          },
+          {
+            "item": "5",
+            "count": "5407303"
+          },
+          {
+            "item": "3",
+            "count": "4748847"
+          },
+          {
+            "item": "6",
+            "count": "3336197"
+          },
+          {
+            "item": "4",
+            "count": "2257808"
+          },
+          {
+            "item": "0",
+            "count": "166086"
+          },
+          {
+            "item": "7",
+            "count": "360"
+          },
+          {
+            "item": "8",
+            "count": "339"
+          },
+          {
+            "item": "9",
+            "count": "298"
+          },
+          {
+            "item": "192",
+            "count": "1"
+          }
+        ],
+        "smallest": "0",
+        "count": "113496874",
+        "sum": "184464740",
+        "cardinality": "11"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 351000268,
+      "name": "trip_distance",
+      "dataTypeName": "number",
+      "fieldName": "trip_distance",
+      "position": 5,
+      "renderTypeName": "number",
+      "tableColumnId": 62765546,
+      "width": 256,
+      "cachedContents": {
+        "largest": "9496.98",
+        "non_null": "113496874",
+        "average": "2.928659862649609",
+        "null": "0",
+        "top": [
+          {
+            "item": "0.90",
+            "count": "2615690"
+          },
+          {
+            "item": "0.80",
+            "count": "2599645"
+          },
+          {
+            "item": "1.00",
+            "count": "2573948"
+          },
+          {
+            "item": "0.70",
+            "count": "2474745"
+          },
+          {
+            "item": "1.10",
+            "count": "2443829"
+          },
+          {
+            "item": "1.20",
+            "count": "2314132"
+          },
+          {
+            "item": "0.60",
+            "count": "2200027"
+          },
+          {
+            "item": "1.30",
+            "count": "2168963"
+          },
+          {
+            "item": "1.40",
+            "count": "2023254"
+          },
+          {
+            "item": "1.50",
+            "count": "1885189"
+          },
+          {
+            "item": "0.50",
+            "count": "1777413"
+          },
+          {
+            "item": "1.60",
+            "count": "1759632"
+          },
+          {
+            "item": "1.70",
+            "count": "1629580"
+          },
+          {
+            "item": "1.80",
+            "count": "1497512"
+          },
+          {
+            "item": "1.90",
+            "count": "1376372"
+          },
+          {
+            "item": "2.00",
+            "count": "1266430"
+          },
+          {
+            "item": "0.40",
+            "count": "1235451"
+          },
+          {
+            "item": "2.10",
+            "count": "1163074"
+          },
+          {
+            "item": "2.20",
+            "count": "1068884"
+          },
+          {
+            "item": "2.30",
+            "count": "979892"
+          }
+        ],
+        "smallest": "0.00",
+        "count": "113496874",
+        "sum": "332393739.42",
+        "cardinality": "7089"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 351000269,
+      "name": "RatecodeID",
+      "dataTypeName": "number",
+      "fieldName": "ratecodeid",
+      "position": 6,
+      "renderTypeName": "number",
+      "tableColumnId": 62765547,
+      "width": 220,
+      "cachedContents": {
+        "largest": "99",
+        "non_null": "113496874",
+        "average": "1.044313149981558",
+        "null": "0",
+        "top": [
+          {
+            "item": "1",
+            "count": "110268929"
+          },
+          {
+            "item": "2",
+            "count": "2541887"
+          },
+          {
+            "item": "5",
+            "count": "382681"
+          },
+          {
+            "item": "3",
+            "count": "237602"
+          },
+          {
+            "item": "4",
+            "count": "61748"
+          },
+          {
+            "item": "99",
+            "count": "2970"
+          },
+          {
+            "item": "6",
+            "count": "1057"
+          }
+        ],
+        "smallest": "1",
+        "count": "113496874",
+        "sum": "118526278",
+        "cardinality": "7"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 351000270,
+      "name": "store_and_fwd_flag",
+      "dataTypeName": "text",
+      "fieldName": "store_and_fwd_flag",
+      "position": 7,
+      "renderTypeName": "text",
+      "tableColumnId": 62765548,
+      "width": 316,
+      "cachedContents": {
+        "largest": "Y",
+        "non_null": "113496874",
+        "null": "0",
+        "top": [
+          {
+            "item": "N",
+            "count": "113013230"
+          },
+          {
+            "item": "Y",
+            "count": "483644"
+          }
+        ],
+        "smallest": "N",
+        "count": "113496874",
+        "cardinality": "2"
+      },
+      "format": {}
+    },
+    {
+      "id": 351000271,
+      "name": "PULocationID",
+      "dataTypeName": "number",
+      "fieldName": "pulocationid",
+      "position": 8,
+      "renderTypeName": "number",
+      "tableColumnId": 62765549,
+      "width": 244,
+      "cachedContents": {
+        "largest": "265",
+        "non_null": "113496874",
+        "average": "162.9184296388639",
+        "null": "0",
+        "top": [
+          {
+            "item": "237",
+            "count": "4442294"
+          },
+          {
+            "item": "161",
+            "count": "4274032"
+          },
+          {
+            "item": "236",
+            "count": "4023665"
+          },
+          {
+            "item": "186",
+            "count": "3973288"
+          },
+          {
+            "item": "162",
+            "count": "3863529"
+          },
+          {
+            "item": "230",
+            "count": "3841712"
+          },
+          {
+            "item": "234",
+            "count": "3702711"
+          },
+          {
+            "item": "170",
+            "count": "3632477"
+          },
+          {
+            "item": "48",
+            "count": "3566794"
+          },
+          {
+            "item": "79",
+            "count": "3327326"
+          },
+          {
+            "item": "142",
+            "count": "3286924"
+          },
+          {
+            "item": "163",
+            "count": "3034785"
+          },
+          {
+            "item": "138",
+            "count": "3034484"
+          },
+          {
+            "item": "239",
+            "count": "2865263"
+          },
+          {
+            "item": "164",
+            "count": "2745136"
+          },
+          {
+            "item": "132",
+            "count": "2726877"
+          },
+          {
+            "item": "107",
+            "count": "2701869"
+          },
+          {
+            "item": "68",
+            "count": "2678772"
+          },
+          {
+            "item": "141",
+            "count": "2567625"
+          },
+          {
+            "item": "249",
+            "count": "2372248"
+          }
+        ],
+        "smallest": "1",
+        "count": "113496874",
+        "sum": "18490732481",
+        "cardinality": "265"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 351000272,
+      "name": "DOLocationID",
+      "dataTypeName": "number",
+      "fieldName": "dolocationid",
+      "position": 9,
+      "renderTypeName": "number",
+      "tableColumnId": 62765550,
+      "width": 244,
+      "cachedContents": {
+        "largest": "265",
+        "non_null": "113496874",
+        "average": "160.8657528488406",
+        "null": "0",
+        "top": [
+          {
+            "item": "161",
+            "count": "4197865"
+          },
+          {
+            "item": "236",
+            "count": "4150955"
+          },
+          {
+            "item": "237",
+            "count": "3908234"
+          },
+          {
+            "item": "170",
+            "count": "3618960"
+          },
+          {
+            "item": "230",
+            "count": "3522229"
+          },
+          {
+            "item": "162",
+            "count": "3450268"
+          },
+          {
+            "item": "234",
+            "count": "3171724"
+          },
+          {
+            "item": "186",
+            "count": "3090148"
+          },
+          {
+            "item": "48",
+            "count": "3075486"
+          },
+          {
+            "item": "142",
+            "count": "2930684"
+          },
+          {
+            "item": "79",
+            "count": "2754338"
+          },
+          {
+            "item": "163",
+            "count": "2737916"
+          },
+          {
+            "item": "239",
+            "count": "2726160"
+          },
+          {
+            "item": "141",
+            "count": "2596294"
+          },
+          {
+            "item": "68",
+            "count": "2523248"
+          },
+          {
+            "item": "164",
+            "count": "2431960"
+          },
+          {
+            "item": "107",
+            "count": "2396477"
+          },
+          {
+            "item": "238",
+            "count": "2238011"
+          },
+          {
+            "item": "246",
+            "count": "2049619"
+          },
+          {
+            "item": "263",
+            "count": "2017115"
+          }
+        ],
+        "smallest": "1",
+        "count": "113496874",
+        "sum": "18257760082",
+        "cardinality": "264"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 351000273,
+      "name": "payment_type",
+      "dataTypeName": "number",
+      "fieldName": "payment_type",
+      "position": 10,
+      "renderTypeName": "number",
+      "tableColumnId": 62765551,
+      "width": 244,
+      "cachedContents": {
+        "largest": "5",
+        "non_null": "113496874",
+        "average": "1.336570670660057",
+        "null": "0",
+        "top": [
+          {
+            "item": "1",
+            "count": "76244327"
+          },
+          {
+            "item": "2",
+            "count": "36479462"
+          },
+          {
+            "item": "3",
+            "count": "599001"
+          },
+          {
+            "item": "4",
+            "count": "174081"
+          },
+          {
+            "item": "5",
+            "count": "3"
+          }
+        ],
+        "smallest": "1",
+        "count": "113496874",
+        "sum": "151696593",
+        "cardinality": "5"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 351000274,
+      "name": "fare_amount",
+      "dataTypeName": "number",
+      "fieldName": "fare_amount",
+      "position": 11,
+      "renderTypeName": "number",
+      "tableColumnId": 62765552,
+      "width": 232,
+      "cachedContents": {
+        "largest": "861604.49",
+        "non_null": "113496874",
+        "average": "13.04798400359467",
+        "null": "0",
+        "top": [
+          {
+            "item": "6",
+            "count": "5578234"
+          },
+          {
+            "item": "6.5",
+            "count": "5531505"
+          },
+          {
+            "item": "7",
+            "count": "5414014"
+          },
+          {
+            "item": "5.5",
+            "count": "5409028"
+          },
+          {
+            "item": "7.5",
+            "count": "5182756"
+          },
+          {
+            "item": "5",
+            "count": "4979045"
+          },
+          {
+            "item": "8",
+            "count": "4954386"
+          },
+          {
+            "item": "8.5",
+            "count": "4641575"
+          },
+          {
+            "item": "9",
+            "count": "4363104"
+          },
+          {
+            "item": "4.5",
+            "count": "4093621"
+          },
+          {
+            "item": "9.5",
+            "count": "4036814"
+          },
+          {
+            "item": "10",
+            "count": "3754384"
+          },
+          {
+            "item": "10.5",
+            "count": "3425596"
+          },
+          {
+            "item": "11",
+            "count": "3147553"
+          },
+          {
+            "item": "4",
+            "count": "2892136"
+          },
+          {
+            "item": "11.5",
+            "count": "2864571"
+          },
+          {
+            "item": "12",
+            "count": "2629992"
+          },
+          {
+            "item": "52",
+            "count": "2565468"
+          },
+          {
+            "item": "12.5",
+            "count": "2385893"
+          },
+          {
+            "item": "13",
+            "count": "2186869"
+          }
+        ],
+        "smallest": "-550",
+        "count": "113496874",
+        "sum": "1480905396.41",
+        "cardinality": "6487"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 351000275,
+      "name": "extra",
+      "dataTypeName": "number",
+      "fieldName": "extra",
+      "position": 12,
+      "renderTypeName": "number",
+      "tableColumnId": 62765553,
+      "width": 160,
+      "cachedContents": {
+        "largest": "14000",
+        "non_null": "113496874",
+        "average": "0.3312382626503000",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "59632913"
+          },
+          {
+            "item": "0.5",
+            "count": "35657225"
+          },
+          {
+            "item": "1",
+            "count": "17720014"
+          },
+          {
+            "item": "4.5",
+            "count": "454840"
+          },
+          {
+            "item": "-0.5",
+            "count": "19406"
+          },
+          {
+            "item": "-1",
+            "count": "7291"
+          },
+          {
+            "item": "0.3",
+            "count": "1684"
+          },
+          {
+            "item": "1.3",
+            "count": "958"
+          },
+          {
+            "item": "0.8",
+            "count": "938"
+          },
+          {
+            "item": "-4.5",
+            "count": "727"
+          },
+          {
+            "item": "1.8",
+            "count": "156"
+          },
+          {
+            "item": "0.02",
+            "count": "140"
+          },
+          {
+            "item": "1.5",
+            "count": "100"
+          },
+          {
+            "item": "4.54",
+            "count": "53"
+          },
+          {
+            "item": "4.8",
+            "count": "42"
+          },
+          {
+            "item": "0.2",
+            "count": "33"
+          },
+          {
+            "item": "2",
+            "count": "27"
+          },
+          {
+            "item": "0.1",
+            "count": "21"
+          },
+          {
+            "item": "0.7",
+            "count": "19"
+          },
+          {
+            "item": "6.52",
+            "count": "16"
+          }
+        ],
+        "smallest": "-58.64",
+        "count": "113496874",
+        "sum": "37594507.36",
+        "cardinality": "146"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 351000276,
+      "name": "mta_tax",
+      "dataTypeName": "number",
+      "fieldName": "mta_tax",
+      "position": 13,
+      "renderTypeName": "number",
+      "tableColumnId": 62765554,
+      "width": 184,
+      "cachedContents": {
+        "largest": "250",
+        "non_null": "113496874",
+        "average": "0.4972915854052509",
+        "null": "0",
+        "top": [
+          {
+            "item": "0.5",
+            "count": "112921472"
+          },
+          {
+            "item": "0",
+            "count": "517720"
+          },
+          {
+            "item": "-0.5",
+            "count": "54377"
+          },
+          {
+            "item": "0.85",
+            "count": "2657"
+          },
+          {
+            "item": "3",
+            "count": "218"
+          },
+          {
+            "item": "0.25",
+            "count": "80"
+          },
+          {
+            "item": "1.03",
+            "count": "66"
+          },
+          {
+            "item": "0.01",
+            "count": "50"
+          },
+          {
+            "item": "0.1",
+            "count": "41"
+          },
+          {
+            "item": "0.2",
+            "count": "23"
+          },
+          {
+            "item": "0.32",
+            "count": "14"
+          },
+          {
+            "item": "0.9",
+            "count": "14"
+          },
+          {
+            "item": "1",
+            "count": "8"
+          },
+          {
+            "item": "0.35",
+            "count": "8"
+          },
+          {
+            "item": "7.68",
+            "count": "7"
+          },
+          {
+            "item": "6.8",
+            "count": "5"
+          },
+          {
+            "item": "0.37",
+            "count": "4"
+          },
+          {
+            "item": "6.34",
+            "count": "3"
+          },
+          {
+            "item": "12.95",
+            "count": "2"
+          },
+          {
+            "item": "0.78",
+            "count": "2"
+          }
+        ],
+        "smallest": "-0.5",
+        "count": "113496874",
+        "sum": "56441040.41",
+        "cardinality": "120"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 351000277,
+      "name": "tip_amount",
+      "dataTypeName": "number",
+      "fieldName": "tip_amount",
+      "position": 14,
+      "renderTypeName": "number",
+      "tableColumnId": 62765555,
+      "width": 220,
+      "cachedContents": {
+        "largest": "1600.22",
+        "non_null": "113496874",
+        "average": "1.837307255792790",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "40495008"
+          },
+          {
+            "item": "1",
+            "count": "6895852"
+          },
+          {
+            "item": "2",
+            "count": "3628741"
+          },
+          {
+            "item": "1.5",
+            "count": "1455976"
+          },
+          {
+            "item": "3",
+            "count": "1184943"
+          },
+          {
+            "item": "1.56",
+            "count": "1075049"
+          },
+          {
+            "item": "1.46",
+            "count": "1074543"
+          },
+          {
+            "item": "1.66",
+            "count": "1066716"
+          },
+          {
+            "item": "1.95",
+            "count": "1051607"
+          },
+          {
+            "item": "1.76",
+            "count": "1039460"
+          },
+          {
+            "item": "1.36",
+            "count": "1033134"
+          },
+          {
+            "item": "1.45",
+            "count": "1030706"
+          },
+          {
+            "item": "1.86",
+            "count": "999368"
+          },
+          {
+            "item": "1.55",
+            "count": "978035"
+          },
+          {
+            "item": "1.96",
+            "count": "954815"
+          },
+          {
+            "item": "1.26",
+            "count": "937751"
+          },
+          {
+            "item": "2.06",
+            "count": "906687"
+          },
+          {
+            "item": "1.7",
+            "count": "883828"
+          },
+          {
+            "item": "2.45",
+            "count": "879510"
+          },
+          {
+            "item": "1.25",
+            "count": "876623"
+          }
+        ],
+        "smallest": "-391",
+        "count": "113496874",
+        "sum": "208528630.11",
+        "cardinality": "6627"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 351000278,
+      "name": "tolls_amount",
+      "dataTypeName": "number",
+      "fieldName": "tolls_amount",
+      "position": 15,
+      "renderTypeName": "number",
+      "tableColumnId": 62765556,
+      "width": 244,
+      "cachedContents": {
+        "largest": "5743.51",
+        "non_null": "113496874",
+        "average": "0.3252319359914706",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "107585715"
+          },
+          {
+            "item": "5.76",
+            "count": "4322060"
+          },
+          {
+            "item": "5.54",
+            "count": "1122370"
+          },
+          {
+            "item": "10.5",
+            "count": "92992"
+          },
+          {
+            "item": "12.5",
+            "count": "63943"
+          },
+          {
+            "item": "2.64",
+            "count": "42950"
+          },
+          {
+            "item": "11.52",
+            "count": "22575"
+          },
+          {
+            "item": "17.5",
+            "count": "13476"
+          },
+          {
+            "item": "2.54",
+            "count": "12649"
+          },
+          {
+            "item": "15.5",
+            "count": "11384"
+          },
+          {
+            "item": "16.26",
+            "count": "7440"
+          },
+          {
+            "item": "16.5",
+            "count": "7165"
+          },
+          {
+            "item": "18.5",
+            "count": "6848"
+          },
+          {
+            "item": "11.08",
+            "count": "6117"
+          },
+          {
+            "item": "18.26",
+            "count": "6050"
+          },
+          {
+            "item": "8.5",
+            "count": "5969"
+          },
+          {
+            "item": "15",
+            "count": "5820"
+          },
+          {
+            "item": "17.28",
+            "count": "5694"
+          },
+          {
+            "item": "18",
+            "count": "5236"
+          },
+          {
+            "item": "21",
+            "count": "4643"
+          }
+        ],
+        "smallest": "-24",
+        "count": "113496874",
+        "sum": "36912808.06",
+        "cardinality": "3350"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 351000279,
+      "name": "improvement_surcharge",
+      "dataTypeName": "number",
+      "fieldName": "improvement_surcharge",
+      "position": 16,
+      "renderTypeName": "number",
+      "tableColumnId": 62765557,
+      "width": 352,
+      "cachedContents": {
+        "largest": "1",
+        "non_null": "113496874",
+        "average": "0.2996208074417979",
+        "null": "0",
+        "top": [
+          {
+            "item": "0.3",
+            "count": "113408238"
+          },
+          {
+            "item": "-0.3",
+            "count": "56060"
+          },
+          {
+            "item": "0",
+            "count": "32144"
+          },
+          {
+            "item": "1",
+            "count": "360"
+          },
+          {
+            "item": "0.11",
+            "count": "36"
+          },
+          {
+            "item": "0.25",
+            "count": "10"
+          },
+          {
+            "item": "0.17",
+            "count": "8"
+          },
+          {
+            "item": "0.01",
+            "count": "4"
+          },
+          {
+            "item": "0.08",
+            "count": "4"
+          },
+          {
+            "item": "0.5",
+            "count": "4"
+          },
+          {
+            "item": "0.1",
+            "count": "3"
+          },
+          {
+            "item": "0.42",
+            "count": "1"
+          },
+          {
+            "item": "0.18",
+            "count": "1"
+          },
+          {
+            "item": "0.55",
+            "count": "1"
+          }
+        ],
+        "smallest": "-0.3",
+        "count": "113496874",
+        "sum": "34006025.03",
+        "cardinality": "14"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    },
+    {
+      "id": 351000280,
+      "name": "total_amount",
+      "dataTypeName": "number",
+      "fieldName": "total_amount",
+      "position": 17,
+      "renderTypeName": "number",
+      "tableColumnId": 62765558,
+      "width": 244,
+      "cachedContents": {
+        "largest": "861611.05",
+        "non_null": "113496874",
+        "average": "16.34269093446574",
+        "null": "0",
+        "top": [
+          {
+            "item": "7.8",
+            "count": "2649981"
+          },
+          {
+            "item": "7.3",
+            "count": "2639992"
+          },
+          {
+            "item": "8.3",
+            "count": "2586201"
+          },
+          {
+            "item": "8.8",
+            "count": "2557413"
+          },
+          {
+            "item": "6.8",
+            "count": "2549859"
+          },
+          {
+            "item": "6.3",
+            "count": "2312841"
+          },
+          {
+            "item": "9.3",
+            "count": "2309237"
+          },
+          {
+            "item": "9.8",
+            "count": "2168292"
+          },
+          {
+            "item": "10.3",
+            "count": "2011389"
+          },
+          {
+            "item": "5.8",
+            "count": "1996141"
+          },
+          {
+            "item": "10.8",
+            "count": "1885728"
+          },
+          {
+            "item": "11.3",
+            "count": "1729108"
+          },
+          {
+            "item": "11.8",
+            "count": "1611794"
+          },
+          {
+            "item": "5.3",
+            "count": "1552411"
+          },
+          {
+            "item": "12.3",
+            "count": "1485187"
+          },
+          {
+            "item": "12.8",
+            "count": "1391934"
+          },
+          {
+            "item": "13.3",
+            "count": "1284477"
+          },
+          {
+            "item": "13.8",
+            "count": "1187823"
+          },
+          {
+            "item": "14.3",
+            "count": "1088719"
+          },
+          {
+            "item": "9.36",
+            "count": "1071306"
+          }
+        ],
+        "smallest": "-550.3",
+        "count": "113496874",
+        "sum": "1854844333.81",
+        "cardinality": "23100"
+      },
+      "format": {
+        "decimalSeparator": ".",
+        "groupSeparator": ","
+      }
+    }
+  ],
+  "grants": [
+    {
+      "inherited": false,
+      "type": "viewer",
+      "flags": [
+        "public"
+      ]
+    }
+  ],
+  "metadata": {
+    "rdfClass": "",
+    "rdfSubject": "0",
+    "attachments": [
+      {
+        "filename": "Yellow_Taxi_Trip_Data_Data_Dictionary.xlsx",
+        "assetId": "8071c85b-dd41-408b-9e13-d2799869f456",
+        "name": "Yellow_Taxi_Trip_Data_Data_Dictionary.xlsx"
+      }
+    ],
+    "custom_fields": {
+      "Data Collection": {
+        "Data Collection": "TLC Trip Data"
+      },
+      "Update": {
+        "Automation": "No",
+        "Update Frequency Details": "As this is historical data, the dataset is only published once. The data will only be changed rarely if there are corrections needed.",
+        "Date Made Public": "04/09/2018",
+        "Update Frequency": "Historical data",
+        "Data Change Frequency": "As needed"
+      },
+      "Dataset Information": {
+        "Agency": "Taxi and Limousine Commission (TLC)"
+      }
+    },
+    "rowIdentifier": "0",
+    "rowLabel": "taxi trip record"
+  },
+  "owner": {
+    "id": "5fuc-pqz2",
+    "displayName": "NYC OpenData",
+    "profileImageUrlLarge": "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName": "NYC OpenData",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "query": {},
+  "rights": [
+    "read"
+  ],
+  "tableAuthor": {
+    "id": "5fuc-pqz2",
+    "displayName": "NYC OpenData",
+    "profileImageUrlLarge": "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium": "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall": "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName": "NYC OpenData",
+    "type": "interactive",
+    "flags": [
+      "acceptedEula",
+      "mayBeStoriesCoOwner"
+    ]
+  },
+  "tags": [
+    "yellow taxi",
+    "trip data",
+    "fhv",
+    "trip",
+    "base",
+    "high volume",
+    "uber",
+    "lyft",
+    "via"
+  ],
+  "flags": [
+    "default",
+    "ownerMayBeContacted",
+    "restorable",
+    "restorePossibleForType"
+  ]
+}

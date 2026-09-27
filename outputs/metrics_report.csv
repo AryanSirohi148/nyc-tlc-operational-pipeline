@@ -1,0 +1,44 @@
+metric,pickup_borough,trip_count,total_revenue,avg_revenue_per_trip,pickup_hour,avg_duration_min,median_duration_min,vendor_name,avg_fare,total_trips,plausible_trips,implausible_trips,plausibility_rate_pct,speed_range,median_fare_per_mile,mean_fare_per_mile
+M1_Revenue_per_Borough,Manhattan,2273838.0,40481733.04,17.803261727528522,,,,,,,,,,,,
+M1_Revenue_per_Borough,Queens,247780.0,15390545.95,62.11375393494229,,,,,,,,,,,,
+M1_Revenue_per_Borough,Brooklyn,14804.0,459425.24,31.03385841664415,,,,,,,,,,,,
+M1_Revenue_per_Borough,Unknown,8461.0,190157.56,22.474596383406215,,,,,,,,,,,,
+M1_Revenue_per_Borough,Bronx,4280.0,147626.47,34.49216588785047,,,,,,,,,,,,
+M1_Revenue_per_Borough,UNKNOWN_ZONE,283.0,24568.74,86.81533568904594,,,,,,,,,,,,
+M1_Revenue_per_Borough,EWR,14.0,1272.16,90.86857142857143,,,,,,,,,,,,
+M1_Revenue_per_Borough,Staten Island,13.0,1142.0800000000002,87.8523076923077,,,,,,,,,,,,
+M2_Avg_Duration_by_Hour,,67582.0,,,0.0,13.633906957473883,11.083333333333334,,,,,,,,,
+M2_Avg_Duration_by_Hour,,44234.0,,,1.0,12.508756085062771,10.333333333333334,,,,,,,,,
+M2_Avg_Duration_by_Hour,,31199.0,,,2.0,11.964020748528265,9.983333333333333,,,,,,,,,
+M2_Avg_Duration_by_Hour,,20135.0,,,3.0,12.085226388543994,9.933333333333334,,,,,,,,,
+M2_Avg_Duration_by_Hour,,12489.0,,,4.0,13.815522993567674,10.9,,,,,,,,,
+M2_Avg_Duration_by_Hour,,15304.0,,,5.0,16.48353480571528,10.766666666666667,,,,,,,,,
+M2_Avg_Duration_by_Hour,,35046.0,,,6.0,15.711739333067017,9.533333333333333,,,,,,,,,
+M2_Avg_Duration_by_Hour,,72242.0,,,7.0,14.873903454131025,10.166666666666666,,,,,,,,,
+M2_Avg_Duration_by_Hour,,97856.0,,,8.0,14.964251723621103,11.066666666666666,,,,,,,,,
+M2_Avg_Duration_by_Hour,,107940.0,,,9.0,14.860536100302637,11.316666666666666,,,,,,,,,
+M2_Avg_Duration_by_Hour,,116564.0,,,10.0,14.946000909371675,11.516666666666667,,,,,,,,,
+M2_Avg_Duration_by_Hour,,125386.0,,,11.0,14.835111309609259,11.616666666666667,,,,,,,,,
+M2_Avg_Duration_by_Hour,,137673.0,,,12.0,15.033907883172445,11.766666666666667,,,,,,,,,
+M2_Avg_Duration_by_Hour,,144591.0,,,13.0,15.529649378822564,11.95,,,,,,,,,
+M2_Avg_Duration_by_Hour,,156800.0,,,14.0,16.62195982142857,12.516666666666667,,,,,,,,,
+M2_Avg_Duration_by_Hour,,163826.0,,,15.0,16.95019278584189,12.416666666666666,,,,,,,,,
+M2_Avg_Duration_by_Hour,,165750.0,,,16.0,17.068178883861236,12.333333333333334,,,,,,,,,
+M2_Avg_Duration_by_Hour,,176614.0,,,17.0,15.999117661491539,12.083333333333334,,,,,,,,,
+M2_Avg_Duration_by_Hour,,183317.0,,,18.0,14.364378371891315,11.483333333333333,,,,,,,,,
+M2_Avg_Duration_by_Hour,,162382.0,,,19.0,13.794420358578334,11.15,,,,,,,,,
+M2_Avg_Duration_by_Hour,,145014.0,,,20.0,13.515121183701805,11.15,,,,,,,,,
+M2_Avg_Duration_by_Hour,,144857.0,,,21.0,13.505916524572509,11.233333333333333,,,,,,,,,
+M2_Avg_Duration_by_Hour,,127286.0,,,22.0,13.884471059922799,11.5,,,,,,,,,
+M2_Avg_Duration_by_Hour,,95386.0,,,23.0,14.236939557866632,11.583333333333334,,,,,,,,,
+M3_Trip_Count_per_Vendor,,1961857.0,44290482.81,,,,,VeriFone Inc.,18.951697570210264,,,,,,,
+M3_Trip_Count_per_Vendor,,587616.0,12405988.43,,,,,Creative Mobile Technologies (CMT),17.877166499891086,,,,,,,
+M4_Speed_Plausibility_Rate,,,,,,,,,,2549473.0,2549473.0,0.0,100.0,"[5.0,80.0] mph",,
+M5_Median_Fare_per_Mile_by_Borough,Manhattan,2273838.0,,,,,,,,,,,,,7.275747508305648,7.6517721622515
+M5_Median_Fare_per_Mile_by_Borough,UNKNOWN_ZONE,283.0,,,,,,,,,,,,,7.0698978569998,30.329535412650134
+M5_Median_Fare_per_Mile_by_Borough,Unknown,8461.0,,,,,,,,,,,,,7.060606060606061,7.386123688120837
+M5_Median_Fare_per_Mile_by_Borough,EWR,14.0,,,,,,,,,,,,,5.961591189507837,33.28711491832847
+M5_Median_Fare_per_Mile_by_Borough,Brooklyn,14804.0,,,,,,,,,,,,,5.131827209533267,5.933504442285889
+M5_Median_Fare_per_Mile_by_Borough,Staten Island,13.0,,,,,,,,,,,,,4.6171328671328675,5.74173139167139
+M5_Median_Fare_per_Mile_by_Borough,Bronx,4280.0,,,,,,,,,,,,,4.154929577464789,5.287181983834945
+M5_Median_Fare_per_Mile_by_Borough,Queens,247780.0,,,,,,,,,,,,,4.07552747407135,4.475297755780071
